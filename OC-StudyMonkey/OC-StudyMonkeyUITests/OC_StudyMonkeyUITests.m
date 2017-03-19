@@ -49,16 +49,6 @@
     [monkey addDefaultXCTestPrivateActions];
     [monkey addXCTestTapAlertActionWithInterval:100 application:application];
     [monkey monkeyAround];
-    
-//    monkey.addDefaultXCTestPrivateActions()
-//    
-//    //monkey.addDefaultUIAutomationActions()
-    
-//    monkey.addXCTestTapAlertAction(interval: 100, application: application)
-//    
-//    // Run the monkey test indefinitely.
-//    monkey.monkeyAround()
-    
 }
 
 @end
